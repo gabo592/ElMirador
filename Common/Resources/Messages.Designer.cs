@@ -59,5 +59,212 @@ namespace Common.Resources {
                 resourceCulture = value;
             }
         }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La Cantidad de la transacción contiene un valor no permitido por el sistema..
+        /// </summary>
+        internal static string CANTIDAD_DEFAULT {
+            get {
+                return ResourceManager.GetString("CANTIDAD_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La Cantidad del producto contiene un valor no admitido por el sistema..
+        /// </summary>
+        internal static string CANTIDAD_PRODUCTO_DEFAULT {
+            get {
+                return ResourceManager.GetString("CANTIDAD_PRODUCTO_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La clave o contraseña no puede estar en blanco..
+        /// </summary>
+        internal static string CLAVE_VACIO {
+            get {
+                return ResourceManager.GetString("CLAVE_VACIO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La Descripcion del producto no puede estar en blanco..
+        /// </summary>
+        internal static string DESCRIPCION_PRODUCTO_VACIO {
+            get {
+                return ResourceManager.GetString("DESCRIPCION_PRODUCTO_VACIO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El Descuento de la transacción contiene un valor no permitido por el sistema..
+        /// </summary>
+        internal static string DESCUENTO_DEFAULT {
+            get {
+                return ResourceManager.GetString("DESCUENTO_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La Fecha del modelo contiene un valor no permitido por el sistema..
+        /// </summary>
+        internal static string FECHA_DEFAULT {
+            get {
+                return ResourceManager.GetString("FECHA_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El ID del modelo contiene un valor no admitido para la operación deseada..
+        /// </summary>
+        internal static string ID_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El ID del Empleado contiene un valor no permitido por el sistema..
+        /// </summary>
+        internal static string ID_EMPLEADO_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_EMPLEADO_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El ID del Municipio contiene un valor no admitido por el sistema..
+        /// </summary>
+        internal static string ID_MUNICIPIO_DEFAULT {
+            get {
+                return ResourceManager.GetString("ID_MUNICIPIO_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La clave o contraseña no puede ser menor a 6 caracteres..
+        /// </summary>
+        internal static string LONGITUD_CLAVE_MINIMA {
+            get {
+                return ResourceManager.GetString("LONGITUD_CLAVE_MINIMA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para la Descripcion del producto excede la permitida (200)..
+        /// </summary>
+        internal static string LONGITUD_DESCRIPCION_PRODUCTO_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_DESCRIPCION_PRODUCTO_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para la Direccion excede la permitida (200)..
+        /// </summary>
+        internal static string LONGITUD_DIRECCION_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_DIRECCION_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres de la propiedad Nombre excede la permitida (50)..
+        /// </summary>
+        internal static string LONGITUD_NOMBRE_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_NOMBRE_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para el Primer Apellido excede la permitida (50)..
+        /// </summary>
+        internal static string LONGITUD_PRIMER_APELLIDO_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_PRIMER_APELLIDO_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para el Primer Nombre excede la permitida (50)..
+        /// </summary>
+        internal static string LONGITUD_PRIMER_NOMBRE_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_PRIMER_NOMBRE_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para el Segundo Apellido excede la permitida (50)..
+        /// </summary>
+        internal static string LONGITUD_SEGUNDO_APELLIDO_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_SEGUNDO_APELLIDO_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para el Segundo Nombre excede la permitida (50)..
+        /// </summary>
+        internal static string LONGITUD_SEGUNDO_NOMBRE_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_SEGUNDO_NOMBRE_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a La cantidad de caracteres para el Telefono excede la permitida (50)..
+        /// </summary>
+        internal static string LONGITUD_TELEFONO_EXCEDIDA {
+            get {
+                return ResourceManager.GetString("LONGITUD_TELEFONO_EXCEDIDA", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El modelo se encuentra deshabilitado para realizar la operación deseada..
+        /// </summary>
+        internal static string MODELO_DESACTIVADO {
+            get {
+                return ResourceManager.GetString("MODELO_DESACTIVADO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El Nombre del modelo no puede estar en blanco..
+        /// </summary>
+        internal static string NOMBRE_VACIO {
+            get {
+                return ResourceManager.GetString("NOMBRE_VACIO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El Precio del producto contiene un valor no admitido por el sistema..
+        /// </summary>
+        internal static string PRECIO_PRODUCTO_DEFAULT {
+            get {
+                return ResourceManager.GetString("PRECIO_PRODUCTO_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El Primer Apellido no puede estar en blanco..
+        /// </summary>
+        internal static string PRIMER_APELLIDO_VACIO {
+            get {
+                return ResourceManager.GetString("PRIMER_APELLIDO_VACIO", resourceCulture);
+            }
+        }
+        
+        /// <summary>
+        ///   Busca una cadena traducida similar a El Primer Nombre del modelo no puede estar en blanco..
+        /// </summary>
+        internal static string PRIMER_NOMBRE_VACIO {
+            get {
+                return ResourceManager.GetString("PRIMER_NOMBRE_VACIO", resourceCulture);
+            }
+        }
     }
 }

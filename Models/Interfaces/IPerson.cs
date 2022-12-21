@@ -3,7 +3,7 @@
     /// <summary>
     /// Indica que una clase posee propiedades de una persona natural.
     /// </summary>
-    internal interface IPerson
+    public interface IPerson
     {
         /// <summary>
         /// Obtiene o establece el primer nombre de la persona.
