@@ -53,8 +53,36 @@
     <Compile Include="Base\BaseDao.cs" />
     <Compile Include="Base\IDao.cs" />
     <Compile Include="Base\Validations.cs" />
+    <Compile Include="CapitalHumano\EmpleadoDao.cs" />
+    <Compile Include="Compras\CompraDao.cs" />
+    <Compile Include="Compras\DetalleCompraDao.cs" />
+    <Compile Include="Compras\ProveedorDao.cs" />
+    <Compile Include="Constantes\StoredProcedures.cs" />
     <Compile Include="Database.cs" />
+    <Compile Include="Factory.cs" />
+    <Compile Include="Interfaces\CapitalHumano\IEmpleadoDao.cs" />
+    <Compile Include="Interfaces\Compras\ICompraDao.cs" />
+    <Compile Include="Interfaces\Compras\IDetalleCompraDao.cs" />
+    <Compile Include="Interfaces\Compras\IProveedorDao.cs" />
+    <Compile Include="Interfaces\Inventario\IDetalleProductoDao.cs" />
+    <Compile Include="Interfaces\Inventario\IMateriaPrimaDao.cs" />
+    <Compile Include="Interfaces\Inventario\IProductoDao.cs" />
+    <Compile Include="Interfaces\Seguridad\IUsuarioDao.cs" />
+    <Compile Include="Interfaces\Ubicacion\IDepartamentoDao.cs" />
+    <Compile Include="Interfaces\Ubicacion\IMunicipioDao.cs" />
+    <Compile Include="Interfaces\Ventas\IClienteDao.cs" />
+    <Compile Include="Interfaces\Ventas\IDetalleVentaDao.cs" />
+    <Compile Include="Interfaces\Ventas\IVentaDao.cs" />
+    <Compile Include="Inventario\DetalleProductoDao.cs" />
+    <Compile Include="Inventario\MateriaPrimaDao.cs" />
+    <Compile Include="Inventario\ProductoDao.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Seguridad\UsuarioDao.cs" />
+    <Compile Include="Ubicacion\DepartamentoDao.cs" />
+    <Compile Include="Ubicacion\MunicipioDao.cs" />
+    <Compile Include="Ventas\ClienteDao.cs" />
+    <Compile Include="Ventas\DetalleVentaDao.cs" />
+    <Compile Include="Ventas\VentaDao.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Common\Common.csproj">
