@@ -31,6 +31,8 @@ namespace Connection
 
         public Database(ErrorHandler handler, string connection)
         {
+            if (string.IsNullOrWhiteSpace(connection)) throw new ArgumentNullException(nameof(connection), "La cadena de conexión no puede estar vacía.");
+
             Handler = handler;
             Connection = connection;
         }
@@ -61,7 +63,7 @@ namespace Connection
                     throw new ArgumentException("No se logró establecer la conexión.");
                 }
 
-                using (SqlCommand command = new SqlCommand
+                using (SqlCommand command = new SqlCommand(procedure, connection)
                 {
                     CommandType = CommandType.StoredProcedure,
                     CommandTimeout = 20
