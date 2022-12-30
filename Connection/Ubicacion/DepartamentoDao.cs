@@ -44,7 +44,7 @@ namespace Connection.Ubicacion
 
             return Read(StoredProcedures.DepartamentoRead, new Dictionary<string, object>
             {
-                {"Id" id }
+                {"Id", id }
             }).FirstOrDefault() ?? new Departamento();
         }
 
