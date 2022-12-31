@@ -20,7 +20,7 @@ namespace Common.Util
 
             if (exception.InnerException != null)
             {
-                Add(exception.InnerException.Message);
+                Add(exception.InnerException);
                 return;
             }
 
@@ -46,8 +46,13 @@ namespace Common.Util
             foreach (string name in this)
             {
                 string value = resourceManager.GetString(name);
+
+                if (value is null) value = name;
+
                 stringBuilder.AppendLine(value);
             }
+
+            Clear();
 
             return stringBuilder.ToString();
         }

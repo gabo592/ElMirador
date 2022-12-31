@@ -56,7 +56,7 @@
             this.LblTitulo.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblTitulo.Location = new System.Drawing.Point(0, 0);
             this.LblTitulo.Name = "LblTitulo";
-            this.LblTitulo.Size = new System.Drawing.Size(466, 43);
+            this.LblTitulo.Size = new System.Drawing.Size(446, 43);
             this.LblTitulo.TabIndex = 0;
             this.LblTitulo.Text = "¡Bienvenido de vuelta!";
             this.LblTitulo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -67,7 +67,7 @@
             this.PbLogo.Image = global::ElMirador.Properties.Resources.Logo_El_Mirador;
             this.PbLogo.Location = new System.Drawing.Point(0, 43);
             this.PbLogo.Name = "PbLogo";
-            this.PbLogo.Size = new System.Drawing.Size(466, 135);
+            this.PbLogo.Size = new System.Drawing.Size(446, 135);
             this.PbLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.PbLogo.TabIndex = 1;
             this.PbLogo.TabStop = false;
@@ -86,7 +86,7 @@
             this.TbPnlDatos.RowCount = 2;
             this.TbPnlDatos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.TbPnlDatos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TbPnlDatos.Size = new System.Drawing.Size(466, 100);
+            this.TbPnlDatos.Size = new System.Drawing.Size(446, 100);
             this.TbPnlDatos.TabIndex = 2;
             // 
             // TxtNombre
@@ -155,7 +155,7 @@
             this.TxtNombre.SelectionLength = 0;
             this.TxtNombre.SelectionStart = 0;
             this.TxtNombre.ShortcutsEnabled = true;
-            this.TxtNombre.Size = new System.Drawing.Size(432, 44);
+            this.TxtNombre.Size = new System.Drawing.Size(413, 44);
             this.TxtNombre.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TxtNombre.TabIndex = 0;
             this.TxtNombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -232,7 +232,7 @@
             this.TxtClave.SelectionLength = 0;
             this.TxtClave.SelectionStart = 0;
             this.TxtClave.ShortcutsEnabled = true;
-            this.TxtClave.Size = new System.Drawing.Size(432, 44);
+            this.TxtClave.Size = new System.Drawing.Size(413, 44);
             this.TxtClave.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TxtClave.TabIndex = 1;
             this.TxtClave.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -256,7 +256,7 @@
             this.TblPnlBotones.RowCount = 1;
             this.TblPnlBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.TblPnlBotones.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TblPnlBotones.Size = new System.Drawing.Size(466, 53);
+            this.TblPnlBotones.Size = new System.Drawing.Size(446, 53);
             this.TblPnlBotones.TabIndex = 3;
             // 
             // BtnIniciarSesion
@@ -290,7 +290,7 @@
             this.BtnIniciarSesion.Dock = System.Windows.Forms.DockStyle.Fill;
             this.BtnIniciarSesion.FocusState = Bunifu.UI.WinForms.BunifuButton.BunifuButton.ButtonStates.Pressed;
             this.BtnIniciarSesion.Font = new System.Drawing.Font("Segoe UI Semibold", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.BtnIniciarSesion.ForeColor = System.Drawing.Color.White;
+            this.BtnIniciarSesion.ForeColor = System.Drawing.Color.Black;
             this.BtnIniciarSesion.IconLeft = null;
             this.BtnIniciarSesion.IconLeftAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.BtnIniciarSesion.IconLeftCursor = System.Windows.Forms.Cursors.Default;
@@ -332,7 +332,7 @@
             this.BtnIniciarSesion.OnIdleState.BorderStyle = Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderStyles.Solid;
             this.BtnIniciarSesion.OnIdleState.BorderThickness = 1;
             this.BtnIniciarSesion.OnIdleState.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            this.BtnIniciarSesion.OnIdleState.ForeColor = System.Drawing.Color.White;
+            this.BtnIniciarSesion.OnIdleState.ForeColor = System.Drawing.Color.Black;
             this.BtnIniciarSesion.OnIdleState.IconLeftImage = null;
             this.BtnIniciarSesion.OnIdleState.IconRightImage = null;
             this.BtnIniciarSesion.OnPressedState.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
@@ -343,7 +343,7 @@
             this.BtnIniciarSesion.OnPressedState.ForeColor = System.Drawing.Color.White;
             this.BtnIniciarSesion.OnPressedState.IconLeftImage = null;
             this.BtnIniciarSesion.OnPressedState.IconRightImage = null;
-            this.BtnIniciarSesion.Size = new System.Drawing.Size(432, 47);
+            this.BtnIniciarSesion.Size = new System.Drawing.Size(413, 47);
             this.BtnIniciarSesion.TabIndex = 0;
             this.BtnIniciarSesion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             this.BtnIniciarSesion.TextAlignment = System.Windows.Forms.HorizontalAlignment.Center;
@@ -357,7 +357,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.ClientSize = new System.Drawing.Size(466, 361);
+            this.ClientSize = new System.Drawing.Size(446, 355);
             this.Controls.Add(this.TblPnlBotones);
             this.Controls.Add(this.TbPnlDatos);
             this.Controls.Add(this.PbLogo);

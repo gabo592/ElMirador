@@ -212,6 +212,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo El Mirador.ico" />
+    <None Include="Resources\align-justify.png" />
     <None Include="Resources\lock.png" />
     <None Include="Resources\user.png" />
     <None Include="Resources\Logo El Mirador.png" />

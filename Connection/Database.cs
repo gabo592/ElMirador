@@ -92,8 +92,8 @@ namespace Connection
 
                     try
                     {
-                        IDataReader reader = command.ExecuteReader();
-                        return MapToObject<TModel>(reader);
+                        SqlDataReader reader = command.ExecuteReader();
+                        return MapToObject<TModel>(reader).ToArray();
                     }
                     catch (Exception ex)
                     {

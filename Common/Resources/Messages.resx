@@ -171,6 +171,9 @@
   <data name="LONGITUD_TELEFONO_EXCEDIDA" xml:space="preserve">
     <value>La cantidad de caracteres para el Telefono excede la permitida (50).</value>
   </data>
+  <data name="MODELO_DEFAULT" xml:space="preserve">
+    <value>No se encontró el modelo especificado.</value>
+  </data>
   <data name="MODELO_DESACTIVADO" xml:space="preserve">
     <value>El modelo se encuentra deshabilitado para realizar la operación deseada.</value>
   </data>

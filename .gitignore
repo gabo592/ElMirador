@@ -7,6 +7,9 @@
 *.sln.docstates
 *.vsidx
 *.lock
+*.cache
+*.csproj.AssemblyReference.cache
+*.Messages.Designer.cs.dll
 
 # Build results
 
@@ -15,6 +18,16 @@
 x64/
 [Bb]in/
 [Oo]bj/
+obj/
+Debug/
+obj/Debug/
+Common/obj/Debug/TempPE/Resources.Messages.Designer.cs.dll
+Connection/obj/Debug/Connection.csproj.AssemblyReference.cache
+ElMirador/Properties/licenses.licx
+ElMirador/obj/Debug/DesignTimeResolveAssemblyReferences.cache
+ElMirador/obj/Debug/DesignTimeResolveAssemblyReferencesInput.cache
+ElMirador/obj/Debug/ElMirador.csproj.AssemblyReference.cache
+Models/obj/Debug/Models.csproj.AssemblyReference.cache
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
