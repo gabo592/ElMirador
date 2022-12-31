@@ -223,6 +223,15 @@ namespace Common.Resources {
         }
         
         /// <summary>
+        ///   Busca una cadena traducida similar a No se encontró el modelo especificado..
+        /// </summary>
+        internal static string MODELO_DEFAULT {
+            get {
+                return ResourceManager.GetString("MODELO_DEFAULT", resourceCulture);
+            }
+        }
+        
+        /// <summary>
         ///   Busca una cadena traducida similar a El modelo se encuentra deshabilitado para realizar la operación deseada..
         /// </summary>
         internal static string MODELO_DESACTIVADO {

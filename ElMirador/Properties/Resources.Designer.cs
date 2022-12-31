@@ -73,6 +73,16 @@ namespace ElMirador.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap align_justify {
+            get {
+                object obj = ResourceManager.GetObject("align-justify", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Logo_El_Mirador {
             get {
                 object obj = ResourceManager.GetObject("Logo El Mirador", resourceCulture);
