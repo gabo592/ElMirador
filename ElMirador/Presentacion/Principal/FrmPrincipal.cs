@@ -1,4 +1,5 @@
-﻿using System;
+﻿using ElMirador.Presentacion.CapitalHumano;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -12,6 +13,8 @@ namespace ElMirador.Presentacion.Principal
 {
     public partial class FrmPrincipal : Form
     {
+        private Form ChildForm;
+
         public FrmPrincipal()
         {
             InitializeComponent();
@@ -37,6 +40,32 @@ namespace ElMirador.Presentacion.Principal
             }
 
             PnlSideBar.Visible = !PnlSideBar.Visible;
+        }
+
+        /// <summary>
+        /// Agrega un formulario al panel principal.
+        /// </summary>
+        /// <param name="form">Formulario a agregar.</param>
+        private void AddForm(Form form)
+        {
+            ChildForm?.Close();
+
+            ChildForm = form;
+
+            ChildForm.TopLevel = false;
+            ChildForm.FormBorderStyle = FormBorderStyle.None;
+            ChildForm.Dock = DockStyle.Fill;
+
+            PnlPrincipal.Controls.Add(ChildForm);
+            PnlPrincipal.Tag = ChildForm;
+
+            ChildForm.BringToFront();
+            ChildForm.Show();
+        }
+
+        private void BtnEmpleados_Click(object sender, EventArgs e)
+        {
+            AddForm(new FrmBuscadorEmpleado());
         }
     }
 }

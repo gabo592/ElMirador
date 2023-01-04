@@ -36,7 +36,7 @@ namespace Connection.CapitalHumano
                 {"Cedula", model.Cedula },
                 {"Foto", model.Foto },
                 {"Telefono", model.Telefono },
-                {"Dirección", model.Direccion },
+                {"Direccion", model.Direccion },
                 {"IdMunicipio", model.IdMunicipio }
             }).FirstOrDefault() ?? new Empleado();
         }
@@ -115,7 +115,7 @@ namespace Connection.CapitalHumano
                 {"Cedula", model.Cedula },
                 {"Foto", model.Foto },
                 {"Telefono", model.Telefono },
-                {"Dirección", model.Direccion },
+                {"Direccion", model.Direccion },
                 {"IdMunicipio", model.IdMunicipio }
             }).FirstOrDefault() ?? new Empleado();
         }

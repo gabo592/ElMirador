@@ -24,10 +24,16 @@ namespace ElMirador.Servicios.Ubicacion
         }
 
         /// <inheritdoc cref="IDepartamentoDao.GetById(int)"/>
-        public Departamento GetDepartamentoById(int id) => departamentoDao.GetById(id);
+        public Departamento GetDepartamento(int id) => departamentoDao.GetById(id);
 
         /// <inheritdoc cref="IMunicipioDao.GetById(int)"/>
-        public Municipio GetMunicipioById(int id) => municipioDao.GetById(id);
+        public Municipio GetMunicipio(int id) => municipioDao.GetById(id);
+
+        /// <inheritdoc cref="IDepartamentoDao.Read(string)"/>
+        public IEnumerable<Departamento> GetDepartamentos(string nombre) => departamentoDao.Read(nombre);
+
+        /// <inheritdoc cref="IMunicipioDao.GetByIdDepartamento(int)"/>
+        public IEnumerable<Municipio> GetMunicipios(int idDepartamento) => municipioDao.GetByIdDepartamento(idDepartamento);
 
         public override void Dispose()
         {

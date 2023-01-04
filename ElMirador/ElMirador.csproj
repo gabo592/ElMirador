@@ -157,6 +157,26 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Interfaces\IObservador.cs" />
+    <Compile Include="Interfaces\ISujeto.cs" />
+    <Compile Include="Presentacion\Base\FrmBuscador.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Base\FrmBuscador.Designer.cs">
+      <DependentUpon>FrmBuscador.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\CapitalHumano\FrmBuscadorEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\CapitalHumano\FrmBuscadorEmpleado.Designer.cs">
+      <DependentUpon>FrmBuscadorEmpleado.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\CapitalHumano\FrmEditarEmpleado.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\CapitalHumano\FrmEditarEmpleado.Designer.cs">
+      <DependentUpon>FrmEditarEmpleado.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Principal\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,16 +189,30 @@
     <Compile Include="Presentacion\Principal\FrmPrincipal.Designer.cs">
       <DependentUpon>FrmPrincipal.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Ventas\FrmBuscadorClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Ventas\FrmBuscadorClientes.Designer.cs">
+      <DependentUpon>FrmBuscadorClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Servicios\Base\IServicioBase.cs" />
     <Compile Include="Servicios\Base\ServicioBase.cs" />
     <Compile Include="Servicios\Base\Sesion.cs" />
+    <Compile Include="Servicios\CapitalHumano\EmpleadoService.cs" />
     <Compile Include="Servicios\DaoFactory.cs" />
     <Compile Include="Servicios\Seguridad\UsuarioService.cs" />
     <Compile Include="Servicios\Ubicacion\UbicacionService.cs" />
+    <Compile Include="ViewModels\CapitalHumano\EmpleadoView.cs" />
     <Compile Include="ViewModels\Seguridad\UsuarioView.cs" />
     <Compile Include="ViewModels\Ubicacion\MunicipioView.cs" />
+    <EmbeddedResource Include="Presentacion\Base\FrmBuscador.resx">
+      <DependentUpon>FrmBuscador.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\CapitalHumano\FrmEditarEmpleado.resx">
+      <DependentUpon>FrmEditarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Principal\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
     </EmbeddedResource>
@@ -212,6 +246,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo El Mirador.ico" />
+    <None Include="Resources\busqueda.png" />
     <None Include="Resources\align-justify.png" />
     <None Include="Resources\lock.png" />
     <None Include="Resources\user.png" />
