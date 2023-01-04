@@ -34,7 +34,7 @@ namespace Connection.Ventas
                 {"PrimerApellido", model.PrimerApellido },
                 {"SegundoApellido", model.SegundoApellido },
                 {"Telefono", model.Telefono },
-                {"Dirección", model.Direccion },
+                {"Direccion", model.Direccion },
                 {"IdMunicipio", model.IdMunicipio }
             }).FirstOrDefault() ?? new Cliente();
         }
@@ -110,7 +110,7 @@ namespace Connection.Ventas
                 {"PrimerApellido", model.PrimerApellido },
                 {"SegundoApellido", model.SegundoApellido },
                 {"Telefono", model.Telefono },
-                {"Dirección", model.Direccion },
+                {"Direccion", model.Direccion },
                 {"IdMunicipio", model.IdMunicipio }
             }).FirstOrDefault() ?? new Cliente();
         }

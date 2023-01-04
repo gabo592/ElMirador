@@ -1,6 +1,6 @@
-﻿namespace ElMirador.Presentacion.CapitalHumano
+﻿namespace ElMirador.Presentacion.Ventas
 {
-    partial class FrmEditarEmpleado
+    partial class FrmEditorCliente
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEditarEmpleado));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FrmEditorCliente));
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges1 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges2 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
             Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges borderEdges3 = new Bunifu.UI.WinForms.BunifuButton.BunifuButton.BorderEdges();
@@ -56,16 +56,12 @@
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties22 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties23 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties24 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties25 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties26 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties27 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
-            Bunifu.UI.WinForms.BunifuTextBox.StateProperties stateProperties28 = new Bunifu.UI.WinForms.BunifuTextBox.StateProperties();
             this.PnlPrincipal = new System.Windows.Forms.Panel();
             this.FlwPnlBotones = new System.Windows.Forms.FlowLayoutPanel();
             this.BtnGuardar = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.BtnLimpiar = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
             this.BtnCancelar = new Bunifu.UI.WinForms.BunifuButton.BunifuButton();
-            this.LblFin = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.TbPnlUbicacion = new System.Windows.Forms.TableLayoutPanel();
             this.LblDepartamento = new System.Windows.Forms.Label();
             this.LblMunicipio = new System.Windows.Forms.Label();
@@ -76,40 +72,30 @@
             this.TxtTelefono = new Bunifu.UI.WinForms.BunifuTextBox();
             this.TxtDireccion = new Bunifu.UI.WinForms.BunifuTextBox();
             this.LblOtrosDatos = new System.Windows.Forms.Label();
-            this.TbPnlIdentificacionEmpleado = new System.Windows.Forms.TableLayoutPanel();
-            this.LblCedula = new System.Windows.Forms.Label();
-            this.LblFoto = new System.Windows.Forms.Label();
-            this.PbFotoEmpleado = new System.Windows.Forms.PictureBox();
-            this.TxtCedula = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.LblIdentificacionEmpleado = new System.Windows.Forms.Label();
-            this.TbPnlNombresEmpleado = new System.Windows.Forms.TableLayoutPanel();
+            this.TbPnlNombresCliente = new System.Windows.Forms.TableLayoutPanel();
             this.TxtPrimerNombre = new Bunifu.UI.WinForms.BunifuTextBox();
             this.TxtSegundoNombre = new Bunifu.UI.WinForms.BunifuTextBox();
             this.TxtPrimerApellido = new Bunifu.UI.WinForms.BunifuTextBox();
             this.TxtSegundoApellido = new Bunifu.UI.WinForms.BunifuTextBox();
-            this.LblNombreEmpleado = new System.Windows.Forms.Label();
+            this.LblNombresCliente = new System.Windows.Forms.Label();
             this.PnlPrincipal.SuspendLayout();
             this.FlwPnlBotones.SuspendLayout();
             this.TbPnlUbicacion.SuspendLayout();
             this.TbPnlOtrosDatos.SuspendLayout();
-            this.TbPnlIdentificacionEmpleado.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.PbFotoEmpleado)).BeginInit();
-            this.TbPnlNombresEmpleado.SuspendLayout();
+            this.TbPnlNombresCliente.SuspendLayout();
             this.SuspendLayout();
             // 
             // PnlPrincipal
             // 
             this.PnlPrincipal.AutoScroll = true;
             this.PnlPrincipal.Controls.Add(this.FlwPnlBotones);
-            this.PnlPrincipal.Controls.Add(this.LblFin);
+            this.PnlPrincipal.Controls.Add(this.label1);
             this.PnlPrincipal.Controls.Add(this.TbPnlUbicacion);
             this.PnlPrincipal.Controls.Add(this.LblUbicacion);
             this.PnlPrincipal.Controls.Add(this.TbPnlOtrosDatos);
             this.PnlPrincipal.Controls.Add(this.LblOtrosDatos);
-            this.PnlPrincipal.Controls.Add(this.TbPnlIdentificacionEmpleado);
-            this.PnlPrincipal.Controls.Add(this.LblIdentificacionEmpleado);
-            this.PnlPrincipal.Controls.Add(this.TbPnlNombresEmpleado);
-            this.PnlPrincipal.Controls.Add(this.LblNombreEmpleado);
+            this.PnlPrincipal.Controls.Add(this.TbPnlNombresCliente);
+            this.PnlPrincipal.Controls.Add(this.LblNombresCliente);
             this.PnlPrincipal.Dock = System.Windows.Forms.DockStyle.Fill;
             this.PnlPrincipal.Location = new System.Drawing.Point(0, 0);
             this.PnlPrincipal.Name = "PnlPrincipal";
@@ -123,10 +109,10 @@
             this.FlwPnlBotones.Controls.Add(this.BtnCancelar);
             this.FlwPnlBotones.Dock = System.Windows.Forms.DockStyle.Top;
             this.FlwPnlBotones.FlowDirection = System.Windows.Forms.FlowDirection.RightToLeft;
-            this.FlwPnlBotones.Location = new System.Drawing.Point(0, 559);
+            this.FlwPnlBotones.Location = new System.Drawing.Point(0, 412);
             this.FlwPnlBotones.Name = "FlwPnlBotones";
-            this.FlwPnlBotones.Size = new System.Drawing.Size(783, 50);
-            this.FlwPnlBotones.TabIndex = 9;
+            this.FlwPnlBotones.Size = new System.Drawing.Size(783, 54);
+            this.FlwPnlBotones.TabIndex = 7;
             // 
             // BtnGuardar
             // 
@@ -404,16 +390,16 @@
             this.BtnCancelar.UseDefaultRadiusAndThickness = true;
             this.BtnCancelar.Click += new System.EventHandler(this.BtnCancelar_Click);
             // 
-            // LblFin
+            // label1
             // 
-            this.LblFin.Dock = System.Windows.Forms.DockStyle.Top;
-            this.LblFin.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblFin.Location = new System.Drawing.Point(0, 516);
-            this.LblFin.Name = "LblFin";
-            this.LblFin.Size = new System.Drawing.Size(783, 43);
-            this.LblFin.TabIndex = 8;
-            this.LblFin.Text = "¡Has finalizado!";
-            this.LblFin.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.label1.Dock = System.Windows.Forms.DockStyle.Top;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(0, 369);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(783, 43);
+            this.label1.TabIndex = 6;
+            this.label1.Text = "¡Has finalizado!";
+            this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // TbPnlUbicacion
             // 
@@ -427,13 +413,13 @@
             this.TbPnlUbicacion.Controls.Add(this.CmbDepartamentos, 1, 1);
             this.TbPnlUbicacion.Controls.Add(this.CmbMunicipios, 2, 1);
             this.TbPnlUbicacion.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TbPnlUbicacion.Location = new System.Drawing.Point(0, 440);
+            this.TbPnlUbicacion.Location = new System.Drawing.Point(0, 287);
             this.TbPnlUbicacion.Name = "TbPnlUbicacion";
             this.TbPnlUbicacion.RowCount = 2;
-            this.TbPnlUbicacion.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 55.26316F));
-            this.TbPnlUbicacion.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44.73684F));
-            this.TbPnlUbicacion.Size = new System.Drawing.Size(783, 76);
-            this.TbPnlUbicacion.TabIndex = 7;
+            this.TbPnlUbicacion.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 57.31707F));
+            this.TbPnlUbicacion.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 42.68293F));
+            this.TbPnlUbicacion.Size = new System.Drawing.Size(783, 82);
+            this.TbPnlUbicacion.TabIndex = 5;
             // 
             // LblDepartamento
             // 
@@ -441,7 +427,7 @@
             this.LblDepartamento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblDepartamento.Location = new System.Drawing.Point(26, 0);
             this.LblDepartamento.Name = "LblDepartamento";
-            this.LblDepartamento.Size = new System.Drawing.Size(362, 42);
+            this.LblDepartamento.Size = new System.Drawing.Size(362, 46);
             this.LblDepartamento.TabIndex = 0;
             this.LblDepartamento.Text = "Departamento";
             this.LblDepartamento.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -452,7 +438,7 @@
             this.LblMunicipio.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LblMunicipio.Location = new System.Drawing.Point(394, 0);
             this.LblMunicipio.Name = "LblMunicipio";
-            this.LblMunicipio.Size = new System.Drawing.Size(362, 42);
+            this.LblMunicipio.Size = new System.Drawing.Size(362, 46);
             this.LblMunicipio.TabIndex = 1;
             this.LblMunicipio.Text = "Municipio";
             this.LblMunicipio.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -463,7 +449,7 @@
             this.CmbDepartamentos.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbDepartamentos.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmbDepartamentos.FormattingEnabled = true;
-            this.CmbDepartamentos.Location = new System.Drawing.Point(26, 45);
+            this.CmbDepartamentos.Location = new System.Drawing.Point(26, 49);
             this.CmbDepartamentos.Name = "CmbDepartamentos";
             this.CmbDepartamentos.Size = new System.Drawing.Size(362, 24);
             this.CmbDepartamentos.TabIndex = 2;
@@ -475,7 +461,7 @@
             this.CmbMunicipios.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.CmbMunicipios.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CmbMunicipios.FormattingEnabled = true;
-            this.CmbMunicipios.Location = new System.Drawing.Point(394, 45);
+            this.CmbMunicipios.Location = new System.Drawing.Point(394, 49);
             this.CmbMunicipios.Name = "CmbMunicipios";
             this.CmbMunicipios.Size = new System.Drawing.Size(362, 24);
             this.CmbMunicipios.TabIndex = 3;
@@ -484,10 +470,10 @@
             // 
             this.LblUbicacion.Dock = System.Windows.Forms.DockStyle.Top;
             this.LblUbicacion.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblUbicacion.Location = new System.Drawing.Point(0, 397);
+            this.LblUbicacion.Location = new System.Drawing.Point(0, 244);
             this.LblUbicacion.Name = "LblUbicacion";
             this.LblUbicacion.Size = new System.Drawing.Size(783, 43);
-            this.LblUbicacion.TabIndex = 6;
+            this.LblUbicacion.TabIndex = 4;
             this.LblUbicacion.Text = "¿Cómo lo ubicamos?";
             this.LblUbicacion.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
@@ -501,13 +487,12 @@
             this.TbPnlOtrosDatos.Controls.Add(this.TxtTelefono, 1, 0);
             this.TbPnlOtrosDatos.Controls.Add(this.TxtDireccion, 2, 0);
             this.TbPnlOtrosDatos.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TbPnlOtrosDatos.Location = new System.Drawing.Point(0, 339);
+            this.TbPnlOtrosDatos.Location = new System.Drawing.Point(0, 186);
             this.TbPnlOtrosDatos.Name = "TbPnlOtrosDatos";
             this.TbPnlOtrosDatos.RowCount = 1;
-            this.TbPnlOtrosDatos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TbPnlOtrosDatos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.TbPnlOtrosDatos.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 100F));
             this.TbPnlOtrosDatos.Size = new System.Drawing.Size(783, 58);
-            this.TbPnlOtrosDatos.TabIndex = 5;
+            this.TbPnlOtrosDatos.TabIndex = 3;
             // 
             // TxtTelefono
             // 
@@ -667,175 +652,32 @@
             // 
             this.LblOtrosDatos.Dock = System.Windows.Forms.DockStyle.Top;
             this.LblOtrosDatos.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblOtrosDatos.Location = new System.Drawing.Point(0, 296);
+            this.LblOtrosDatos.Location = new System.Drawing.Point(0, 143);
             this.LblOtrosDatos.Name = "LblOtrosDatos";
             this.LblOtrosDatos.Size = new System.Drawing.Size(783, 43);
-            this.LblOtrosDatos.TabIndex = 4;
-            this.LblOtrosDatos.Text = "Otros datos sobre el empleado.";
+            this.LblOtrosDatos.TabIndex = 2;
+            this.LblOtrosDatos.Text = "Otros datos sobre el cliente.";
             this.LblOtrosDatos.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // TbPnlIdentificacionEmpleado
+            // TbPnlNombresCliente
             // 
-            this.TbPnlIdentificacionEmpleado.ColumnCount = 4;
-            this.TbPnlIdentificacionEmpleado.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3F));
-            this.TbPnlIdentificacionEmpleado.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47F));
-            this.TbPnlIdentificacionEmpleado.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47F));
-            this.TbPnlIdentificacionEmpleado.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3F));
-            this.TbPnlIdentificacionEmpleado.Controls.Add(this.LblCedula, 1, 0);
-            this.TbPnlIdentificacionEmpleado.Controls.Add(this.LblFoto, 2, 0);
-            this.TbPnlIdentificacionEmpleado.Controls.Add(this.PbFotoEmpleado, 2, 1);
-            this.TbPnlIdentificacionEmpleado.Controls.Add(this.TxtCedula, 1, 1);
-            this.TbPnlIdentificacionEmpleado.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TbPnlIdentificacionEmpleado.Location = new System.Drawing.Point(0, 196);
-            this.TbPnlIdentificacionEmpleado.Name = "TbPnlIdentificacionEmpleado";
-            this.TbPnlIdentificacionEmpleado.RowCount = 2;
-            this.TbPnlIdentificacionEmpleado.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 44F));
-            this.TbPnlIdentificacionEmpleado.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 56F));
-            this.TbPnlIdentificacionEmpleado.Size = new System.Drawing.Size(783, 100);
-            this.TbPnlIdentificacionEmpleado.TabIndex = 3;
-            // 
-            // LblCedula
-            // 
-            this.LblCedula.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LblCedula.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblCedula.Location = new System.Drawing.Point(26, 0);
-            this.LblCedula.Name = "LblCedula";
-            this.LblCedula.Size = new System.Drawing.Size(362, 44);
-            this.LblCedula.TabIndex = 0;
-            this.LblCedula.Text = "Número de Cédula";
-            this.LblCedula.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // LblFoto
-            // 
-            this.LblFoto.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LblFoto.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblFoto.Location = new System.Drawing.Point(394, 0);
-            this.LblFoto.Name = "LblFoto";
-            this.LblFoto.Size = new System.Drawing.Size(362, 44);
-            this.LblFoto.TabIndex = 1;
-            this.LblFoto.Text = "Foto";
-            this.LblFoto.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // PbFotoEmpleado
-            // 
-            this.PbFotoEmpleado.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.PbFotoEmpleado.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.PbFotoEmpleado.Image = global::ElMirador.Properties.Resources.user;
-            this.PbFotoEmpleado.Location = new System.Drawing.Point(394, 47);
-            this.PbFotoEmpleado.Name = "PbFotoEmpleado";
-            this.PbFotoEmpleado.Size = new System.Drawing.Size(362, 50);
-            this.PbFotoEmpleado.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.PbFotoEmpleado.TabIndex = 2;
-            this.PbFotoEmpleado.TabStop = false;
-            this.PbFotoEmpleado.Click += new System.EventHandler(this.PbFotoEmpleado_Click);
-            // 
-            // TxtCedula
-            // 
-            this.TxtCedula.AcceptsReturn = false;
-            this.TxtCedula.AcceptsTab = false;
-            this.TxtCedula.AnimationSpeed = 200;
-            this.TxtCedula.AutoCompleteMode = System.Windows.Forms.AutoCompleteMode.None;
-            this.TxtCedula.AutoCompleteSource = System.Windows.Forms.AutoCompleteSource.None;
-            this.TxtCedula.AutoSizeHeight = true;
-            this.TxtCedula.BackColor = System.Drawing.Color.Transparent;
-            this.TxtCedula.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TxtCedula.BackgroundImage")));
-            this.TxtCedula.BorderColorActive = System.Drawing.Color.DodgerBlue;
-            this.TxtCedula.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.TxtCedula.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
-            this.TxtCedula.BorderColorIdle = System.Drawing.Color.Silver;
-            this.TxtCedula.BorderRadius = 10;
-            this.TxtCedula.BorderThickness = 1;
-            this.TxtCedula.CharacterCasing = System.Windows.Forms.CharacterCasing.Normal;
-            this.TxtCedula.Cursor = System.Windows.Forms.Cursors.IBeam;
-            this.TxtCedula.DefaultFont = new System.Drawing.Font("Segoe UI", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.TxtCedula.DefaultText = "";
-            this.TxtCedula.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.TxtCedula.FillColor = System.Drawing.Color.White;
-            this.TxtCedula.ForeColor = System.Drawing.Color.Black;
-            this.TxtCedula.HideSelection = true;
-            this.TxtCedula.IconLeft = null;
-            this.TxtCedula.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
-            this.TxtCedula.IconPadding = 10;
-            this.TxtCedula.IconRight = null;
-            this.TxtCedula.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
-            this.TxtCedula.Lines = new string[0];
-            this.TxtCedula.Location = new System.Drawing.Point(26, 47);
-            this.TxtCedula.MaxLength = 32767;
-            this.TxtCedula.MinimumSize = new System.Drawing.Size(1, 1);
-            this.TxtCedula.Modified = false;
-            this.TxtCedula.Multiline = false;
-            this.TxtCedula.Name = "TxtCedula";
-            stateProperties9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties9.FillColor = System.Drawing.Color.White;
-            stateProperties9.ForeColor = System.Drawing.Color.Black;
-            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TxtCedula.OnActiveState = stateProperties9;
-            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TxtCedula.OnDisabledState = stateProperties10;
-            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties11.ForeColor = System.Drawing.Color.Black;
-            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TxtCedula.OnHoverState = stateProperties11;
-            stateProperties12.BorderColor = System.Drawing.Color.Silver;
-            stateProperties12.FillColor = System.Drawing.Color.White;
-            stateProperties12.ForeColor = System.Drawing.Color.Black;
-            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.TxtCedula.OnIdleState = stateProperties12;
-            this.TxtCedula.Padding = new System.Windows.Forms.Padding(3);
-            this.TxtCedula.PasswordChar = '\0';
-            this.TxtCedula.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.TxtCedula.PlaceholderText = "000-000000-0000A";
-            this.TxtCedula.ReadOnly = false;
-            this.TxtCedula.ScrollBars = System.Windows.Forms.ScrollBars.None;
-            this.TxtCedula.SelectedText = "";
-            this.TxtCedula.SelectionLength = 0;
-            this.TxtCedula.SelectionStart = 0;
-            this.TxtCedula.ShortcutsEnabled = true;
-            this.TxtCedula.Size = new System.Drawing.Size(362, 50);
-            this.TxtCedula.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
-            this.TxtCedula.TabIndex = 3;
-            this.TxtCedula.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
-            this.TxtCedula.TextMarginBottom = 0;
-            this.TxtCedula.TextMarginLeft = 3;
-            this.TxtCedula.TextMarginTop = 1;
-            this.TxtCedula.TextPlaceholder = "000-000000-0000A";
-            this.TxtCedula.UseSystemPasswordChar = false;
-            this.TxtCedula.WordWrap = true;
-            // 
-            // LblIdentificacionEmpleado
-            // 
-            this.LblIdentificacionEmpleado.Dock = System.Windows.Forms.DockStyle.Top;
-            this.LblIdentificacionEmpleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblIdentificacionEmpleado.Location = new System.Drawing.Point(0, 153);
-            this.LblIdentificacionEmpleado.Name = "LblIdentificacionEmpleado";
-            this.LblIdentificacionEmpleado.Size = new System.Drawing.Size(783, 43);
-            this.LblIdentificacionEmpleado.TabIndex = 2;
-            this.LblIdentificacionEmpleado.Text = "Ayúdanos a identificar mejor al empleado.";
-            this.LblIdentificacionEmpleado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
-            // 
-            // TbPnlNombresEmpleado
-            // 
-            this.TbPnlNombresEmpleado.ColumnCount = 4;
-            this.TbPnlNombresEmpleado.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3F));
-            this.TbPnlNombresEmpleado.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47F));
-            this.TbPnlNombresEmpleado.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47F));
-            this.TbPnlNombresEmpleado.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3F));
-            this.TbPnlNombresEmpleado.Controls.Add(this.TxtPrimerNombre, 1, 0);
-            this.TbPnlNombresEmpleado.Controls.Add(this.TxtSegundoNombre, 2, 0);
-            this.TbPnlNombresEmpleado.Controls.Add(this.TxtPrimerApellido, 1, 1);
-            this.TbPnlNombresEmpleado.Controls.Add(this.TxtSegundoApellido, 2, 1);
-            this.TbPnlNombresEmpleado.Dock = System.Windows.Forms.DockStyle.Top;
-            this.TbPnlNombresEmpleado.Location = new System.Drawing.Point(0, 43);
-            this.TbPnlNombresEmpleado.Name = "TbPnlNombresEmpleado";
-            this.TbPnlNombresEmpleado.RowCount = 2;
-            this.TbPnlNombresEmpleado.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TbPnlNombresEmpleado.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.TbPnlNombresEmpleado.Size = new System.Drawing.Size(783, 110);
-            this.TbPnlNombresEmpleado.TabIndex = 1;
+            this.TbPnlNombresCliente.ColumnCount = 4;
+            this.TbPnlNombresCliente.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3F));
+            this.TbPnlNombresCliente.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47F));
+            this.TbPnlNombresCliente.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 47F));
+            this.TbPnlNombresCliente.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 3F));
+            this.TbPnlNombresCliente.Controls.Add(this.TxtPrimerNombre, 1, 0);
+            this.TbPnlNombresCliente.Controls.Add(this.TxtSegundoNombre, 2, 0);
+            this.TbPnlNombresCliente.Controls.Add(this.TxtPrimerApellido, 1, 1);
+            this.TbPnlNombresCliente.Controls.Add(this.TxtSegundoApellido, 2, 1);
+            this.TbPnlNombresCliente.Dock = System.Windows.Forms.DockStyle.Top;
+            this.TbPnlNombresCliente.Location = new System.Drawing.Point(0, 43);
+            this.TbPnlNombresCliente.Name = "TbPnlNombresCliente";
+            this.TbPnlNombresCliente.RowCount = 2;
+            this.TbPnlNombresCliente.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.TbPnlNombresCliente.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
+            this.TbPnlNombresCliente.Size = new System.Drawing.Size(783, 100);
+            this.TbPnlNombresCliente.TabIndex = 1;
             // 
             // TxtPrimerNombre
             // 
@@ -847,9 +689,9 @@
             this.TxtPrimerNombre.AutoSizeHeight = true;
             this.TxtPrimerNombre.BackColor = System.Drawing.Color.Transparent;
             this.TxtPrimerNombre.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TxtPrimerNombre.BackgroundImage")));
-            this.TxtPrimerNombre.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.TxtPrimerNombre.BorderColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
             this.TxtPrimerNombre.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.TxtPrimerNombre.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.TxtPrimerNombre.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
             this.TxtPrimerNombre.BorderColorIdle = System.Drawing.Color.Silver;
             this.TxtPrimerNombre.BorderRadius = 10;
             this.TxtPrimerNombre.BorderThickness = 1;
@@ -873,26 +715,26 @@
             this.TxtPrimerNombre.Modified = false;
             this.TxtPrimerNombre.Multiline = false;
             this.TxtPrimerNombre.Name = "TxtPrimerNombre";
-            stateProperties13.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties13.FillColor = System.Drawing.Color.White;
-            stateProperties13.ForeColor = System.Drawing.Color.Black;
-            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TxtPrimerNombre.OnActiveState = stateProperties13;
-            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TxtPrimerNombre.OnDisabledState = stateProperties14;
-            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties15.ForeColor = System.Drawing.Color.Black;
-            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TxtPrimerNombre.OnHoverState = stateProperties15;
-            stateProperties16.BorderColor = System.Drawing.Color.Silver;
-            stateProperties16.FillColor = System.Drawing.Color.White;
-            stateProperties16.ForeColor = System.Drawing.Color.Black;
-            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.TxtPrimerNombre.OnIdleState = stateProperties16;
+            stateProperties9.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
+            stateProperties9.FillColor = System.Drawing.Color.White;
+            stateProperties9.ForeColor = System.Drawing.Color.Black;
+            stateProperties9.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.TxtPrimerNombre.OnActiveState = stateProperties9;
+            stateProperties10.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties10.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties10.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties10.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TxtPrimerNombre.OnDisabledState = stateProperties10;
+            stateProperties11.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
+            stateProperties11.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
+            stateProperties11.ForeColor = System.Drawing.Color.Black;
+            stateProperties11.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.TxtPrimerNombre.OnHoverState = stateProperties11;
+            stateProperties12.BorderColor = System.Drawing.Color.Silver;
+            stateProperties12.FillColor = System.Drawing.Color.White;
+            stateProperties12.ForeColor = System.Drawing.Color.Black;
+            stateProperties12.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.TxtPrimerNombre.OnIdleState = stateProperties12;
             this.TxtPrimerNombre.Padding = new System.Windows.Forms.Padding(3);
             this.TxtPrimerNombre.PasswordChar = '\0';
             this.TxtPrimerNombre.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -903,7 +745,7 @@
             this.TxtPrimerNombre.SelectionLength = 0;
             this.TxtPrimerNombre.SelectionStart = 0;
             this.TxtPrimerNombre.ShortcutsEnabled = true;
-            this.TxtPrimerNombre.Size = new System.Drawing.Size(362, 49);
+            this.TxtPrimerNombre.Size = new System.Drawing.Size(362, 44);
             this.TxtPrimerNombre.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TxtPrimerNombre.TabIndex = 0;
             this.TxtPrimerNombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -924,9 +766,9 @@
             this.TxtSegundoNombre.AutoSizeHeight = true;
             this.TxtSegundoNombre.BackColor = System.Drawing.Color.Transparent;
             this.TxtSegundoNombre.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TxtSegundoNombre.BackgroundImage")));
-            this.TxtSegundoNombre.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.TxtSegundoNombre.BorderColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
             this.TxtSegundoNombre.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.TxtSegundoNombre.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.TxtSegundoNombre.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
             this.TxtSegundoNombre.BorderColorIdle = System.Drawing.Color.Silver;
             this.TxtSegundoNombre.BorderRadius = 10;
             this.TxtSegundoNombre.BorderThickness = 1;
@@ -950,26 +792,26 @@
             this.TxtSegundoNombre.Modified = false;
             this.TxtSegundoNombre.Multiline = false;
             this.TxtSegundoNombre.Name = "TxtSegundoNombre";
-            stateProperties17.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties17.FillColor = System.Drawing.Color.White;
-            stateProperties17.ForeColor = System.Drawing.Color.Black;
-            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TxtSegundoNombre.OnActiveState = stateProperties17;
-            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TxtSegundoNombre.OnDisabledState = stateProperties18;
-            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties19.ForeColor = System.Drawing.Color.Black;
-            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TxtSegundoNombre.OnHoverState = stateProperties19;
-            stateProperties20.BorderColor = System.Drawing.Color.Silver;
-            stateProperties20.FillColor = System.Drawing.Color.White;
-            stateProperties20.ForeColor = System.Drawing.Color.Black;
-            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.TxtSegundoNombre.OnIdleState = stateProperties20;
+            stateProperties13.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
+            stateProperties13.FillColor = System.Drawing.Color.White;
+            stateProperties13.ForeColor = System.Drawing.Color.Black;
+            stateProperties13.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.TxtSegundoNombre.OnActiveState = stateProperties13;
+            stateProperties14.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties14.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties14.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties14.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TxtSegundoNombre.OnDisabledState = stateProperties14;
+            stateProperties15.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
+            stateProperties15.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
+            stateProperties15.ForeColor = System.Drawing.Color.Black;
+            stateProperties15.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.TxtSegundoNombre.OnHoverState = stateProperties15;
+            stateProperties16.BorderColor = System.Drawing.Color.Silver;
+            stateProperties16.FillColor = System.Drawing.Color.White;
+            stateProperties16.ForeColor = System.Drawing.Color.Black;
+            stateProperties16.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.TxtSegundoNombre.OnIdleState = stateProperties16;
             this.TxtSegundoNombre.Padding = new System.Windows.Forms.Padding(3);
             this.TxtSegundoNombre.PasswordChar = '\0';
             this.TxtSegundoNombre.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -980,7 +822,7 @@
             this.TxtSegundoNombre.SelectionLength = 0;
             this.TxtSegundoNombre.SelectionStart = 0;
             this.TxtSegundoNombre.ShortcutsEnabled = true;
-            this.TxtSegundoNombre.Size = new System.Drawing.Size(362, 49);
+            this.TxtSegundoNombre.Size = new System.Drawing.Size(362, 44);
             this.TxtSegundoNombre.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TxtSegundoNombre.TabIndex = 1;
             this.TxtSegundoNombre.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1001,9 +843,9 @@
             this.TxtPrimerApellido.AutoSizeHeight = true;
             this.TxtPrimerApellido.BackColor = System.Drawing.Color.Transparent;
             this.TxtPrimerApellido.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TxtPrimerApellido.BackgroundImage")));
-            this.TxtPrimerApellido.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.TxtPrimerApellido.BorderColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
             this.TxtPrimerApellido.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.TxtPrimerApellido.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.TxtPrimerApellido.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
             this.TxtPrimerApellido.BorderColorIdle = System.Drawing.Color.Silver;
             this.TxtPrimerApellido.BorderRadius = 10;
             this.TxtPrimerApellido.BorderThickness = 1;
@@ -1021,32 +863,32 @@
             this.TxtPrimerApellido.IconRight = null;
             this.TxtPrimerApellido.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TxtPrimerApellido.Lines = new string[0];
-            this.TxtPrimerApellido.Location = new System.Drawing.Point(26, 58);
+            this.TxtPrimerApellido.Location = new System.Drawing.Point(26, 53);
             this.TxtPrimerApellido.MaxLength = 32767;
             this.TxtPrimerApellido.MinimumSize = new System.Drawing.Size(1, 1);
             this.TxtPrimerApellido.Modified = false;
             this.TxtPrimerApellido.Multiline = false;
             this.TxtPrimerApellido.Name = "TxtPrimerApellido";
-            stateProperties21.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties21.FillColor = System.Drawing.Color.White;
-            stateProperties21.ForeColor = System.Drawing.Color.Black;
-            stateProperties21.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TxtPrimerApellido.OnActiveState = stateProperties21;
-            stateProperties22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties22.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TxtPrimerApellido.OnDisabledState = stateProperties22;
-            stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties23.ForeColor = System.Drawing.Color.Black;
-            stateProperties23.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TxtPrimerApellido.OnHoverState = stateProperties23;
-            stateProperties24.BorderColor = System.Drawing.Color.Silver;
-            stateProperties24.FillColor = System.Drawing.Color.White;
-            stateProperties24.ForeColor = System.Drawing.Color.Black;
-            stateProperties24.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.TxtPrimerApellido.OnIdleState = stateProperties24;
+            stateProperties17.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
+            stateProperties17.FillColor = System.Drawing.Color.White;
+            stateProperties17.ForeColor = System.Drawing.Color.Black;
+            stateProperties17.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.TxtPrimerApellido.OnActiveState = stateProperties17;
+            stateProperties18.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties18.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties18.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties18.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TxtPrimerApellido.OnDisabledState = stateProperties18;
+            stateProperties19.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
+            stateProperties19.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
+            stateProperties19.ForeColor = System.Drawing.Color.Black;
+            stateProperties19.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.TxtPrimerApellido.OnHoverState = stateProperties19;
+            stateProperties20.BorderColor = System.Drawing.Color.Silver;
+            stateProperties20.FillColor = System.Drawing.Color.White;
+            stateProperties20.ForeColor = System.Drawing.Color.Black;
+            stateProperties20.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.TxtPrimerApellido.OnIdleState = stateProperties20;
             this.TxtPrimerApellido.Padding = new System.Windows.Forms.Padding(3);
             this.TxtPrimerApellido.PasswordChar = '\0';
             this.TxtPrimerApellido.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -1057,7 +899,7 @@
             this.TxtPrimerApellido.SelectionLength = 0;
             this.TxtPrimerApellido.SelectionStart = 0;
             this.TxtPrimerApellido.ShortcutsEnabled = true;
-            this.TxtPrimerApellido.Size = new System.Drawing.Size(362, 49);
+            this.TxtPrimerApellido.Size = new System.Drawing.Size(362, 44);
             this.TxtPrimerApellido.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TxtPrimerApellido.TabIndex = 2;
             this.TxtPrimerApellido.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1078,9 +920,9 @@
             this.TxtSegundoApellido.AutoSizeHeight = true;
             this.TxtSegundoApellido.BackColor = System.Drawing.Color.Transparent;
             this.TxtSegundoApellido.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("TxtSegundoApellido.BackgroundImage")));
-            this.TxtSegundoApellido.BorderColorActive = System.Drawing.Color.DodgerBlue;
+            this.TxtSegundoApellido.BorderColorActive = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
             this.TxtSegundoApellido.BorderColorDisabled = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            this.TxtSegundoApellido.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(105)))), ((int)(((byte)(181)))), ((int)(((byte)(255)))));
+            this.TxtSegundoApellido.BorderColorHover = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
             this.TxtSegundoApellido.BorderColorIdle = System.Drawing.Color.Silver;
             this.TxtSegundoApellido.BorderRadius = 10;
             this.TxtSegundoApellido.BorderThickness = 1;
@@ -1098,32 +940,32 @@
             this.TxtSegundoApellido.IconRight = null;
             this.TxtSegundoApellido.IconRightCursor = System.Windows.Forms.Cursors.IBeam;
             this.TxtSegundoApellido.Lines = new string[0];
-            this.TxtSegundoApellido.Location = new System.Drawing.Point(394, 58);
+            this.TxtSegundoApellido.Location = new System.Drawing.Point(394, 53);
             this.TxtSegundoApellido.MaxLength = 32767;
             this.TxtSegundoApellido.MinimumSize = new System.Drawing.Size(1, 1);
             this.TxtSegundoApellido.Modified = false;
             this.TxtSegundoApellido.Multiline = false;
             this.TxtSegundoApellido.Name = "TxtSegundoApellido";
-            stateProperties25.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties25.FillColor = System.Drawing.Color.White;
-            stateProperties25.ForeColor = System.Drawing.Color.Black;
-            stateProperties25.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TxtSegundoApellido.OnActiveState = stateProperties25;
-            stateProperties26.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
-            stateProperties26.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
-            stateProperties26.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
-            stateProperties26.PlaceholderForeColor = System.Drawing.Color.DarkGray;
-            this.TxtSegundoApellido.OnDisabledState = stateProperties26;
-            stateProperties27.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties27.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
-            stateProperties27.ForeColor = System.Drawing.Color.Black;
-            stateProperties27.PlaceholderForeColor = System.Drawing.Color.Black;
-            this.TxtSegundoApellido.OnHoverState = stateProperties27;
-            stateProperties28.BorderColor = System.Drawing.Color.Silver;
-            stateProperties28.FillColor = System.Drawing.Color.White;
-            stateProperties28.ForeColor = System.Drawing.Color.Black;
-            stateProperties28.PlaceholderForeColor = System.Drawing.Color.Silver;
-            this.TxtSegundoApellido.OnIdleState = stateProperties28;
+            stateProperties21.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
+            stateProperties21.FillColor = System.Drawing.Color.White;
+            stateProperties21.ForeColor = System.Drawing.Color.Black;
+            stateProperties21.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.TxtSegundoApellido.OnActiveState = stateProperties21;
+            stateProperties22.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(204)))), ((int)(((byte)(204)))), ((int)(((byte)(204)))));
+            stateProperties22.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(240)))), ((int)(((byte)(240)))), ((int)(((byte)(240)))));
+            stateProperties22.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(109)))), ((int)(((byte)(109)))), ((int)(((byte)(109)))));
+            stateProperties22.PlaceholderForeColor = System.Drawing.Color.DarkGray;
+            this.TxtSegundoApellido.OnDisabledState = stateProperties22;
+            stateProperties23.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
+            stateProperties23.FillColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(199)))), ((int)(((byte)(242)))));
+            stateProperties23.ForeColor = System.Drawing.Color.Black;
+            stateProperties23.PlaceholderForeColor = System.Drawing.Color.Black;
+            this.TxtSegundoApellido.OnHoverState = stateProperties23;
+            stateProperties24.BorderColor = System.Drawing.Color.Silver;
+            stateProperties24.FillColor = System.Drawing.Color.White;
+            stateProperties24.ForeColor = System.Drawing.Color.Black;
+            stateProperties24.PlaceholderForeColor = System.Drawing.Color.Silver;
+            this.TxtSegundoApellido.OnIdleState = stateProperties24;
             this.TxtSegundoApellido.Padding = new System.Windows.Forms.Padding(3);
             this.TxtSegundoApellido.PasswordChar = '\0';
             this.TxtSegundoApellido.PlaceholderForeColor = System.Drawing.Color.Silver;
@@ -1134,7 +976,7 @@
             this.TxtSegundoApellido.SelectionLength = 0;
             this.TxtSegundoApellido.SelectionStart = 0;
             this.TxtSegundoApellido.ShortcutsEnabled = true;
-            this.TxtSegundoApellido.Size = new System.Drawing.Size(362, 49);
+            this.TxtSegundoApellido.Size = new System.Drawing.Size(362, 44);
             this.TxtSegundoApellido.Style = Bunifu.UI.WinForms.BunifuTextBox._Style.Bunifu;
             this.TxtSegundoApellido.TabIndex = 3;
             this.TxtSegundoApellido.TextAlign = System.Windows.Forms.HorizontalAlignment.Left;
@@ -1145,18 +987,18 @@
             this.TxtSegundoApellido.UseSystemPasswordChar = false;
             this.TxtSegundoApellido.WordWrap = true;
             // 
-            // LblNombreEmpleado
+            // LblNombresCliente
             // 
-            this.LblNombreEmpleado.Dock = System.Windows.Forms.DockStyle.Top;
-            this.LblNombreEmpleado.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.LblNombreEmpleado.Location = new System.Drawing.Point(0, 0);
-            this.LblNombreEmpleado.Name = "LblNombreEmpleado";
-            this.LblNombreEmpleado.Size = new System.Drawing.Size(783, 43);
-            this.LblNombreEmpleado.TabIndex = 0;
-            this.LblNombreEmpleado.Text = "¿Cómo se llama el empleado?";
-            this.LblNombreEmpleado.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
+            this.LblNombresCliente.Dock = System.Windows.Forms.DockStyle.Top;
+            this.LblNombresCliente.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.LblNombresCliente.Location = new System.Drawing.Point(0, 0);
+            this.LblNombresCliente.Name = "LblNombresCliente";
+            this.LblNombresCliente.Size = new System.Drawing.Size(783, 43);
+            this.LblNombresCliente.TabIndex = 0;
+            this.LblNombresCliente.Text = "¿Cómo se llama el cliente?";
+            this.LblNombresCliente.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
-            // FrmEditarEmpleado
+            // FrmEditorCliente
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -1164,16 +1006,14 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.PnlPrincipal);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Name = "FrmEditarEmpleado";
+            this.Name = "FrmEditorCliente";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Editar Empleado";
+            this.Text = "Editor Cliente";
             this.PnlPrincipal.ResumeLayout(false);
             this.FlwPnlBotones.ResumeLayout(false);
             this.TbPnlUbicacion.ResumeLayout(false);
             this.TbPnlOtrosDatos.ResumeLayout(false);
-            this.TbPnlIdentificacionEmpleado.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.PbFotoEmpleado)).EndInit();
-            this.TbPnlNombresEmpleado.ResumeLayout(false);
+            this.TbPnlNombresCliente.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -1181,18 +1021,12 @@
         #endregion
 
         private System.Windows.Forms.Panel PnlPrincipal;
-        private System.Windows.Forms.Label LblNombreEmpleado;
-        private System.Windows.Forms.TableLayoutPanel TbPnlNombresEmpleado;
+        private System.Windows.Forms.Label LblNombresCliente;
+        private System.Windows.Forms.TableLayoutPanel TbPnlNombresCliente;
         private Bunifu.UI.WinForms.BunifuTextBox TxtPrimerNombre;
         private Bunifu.UI.WinForms.BunifuTextBox TxtSegundoNombre;
         private Bunifu.UI.WinForms.BunifuTextBox TxtPrimerApellido;
         private Bunifu.UI.WinForms.BunifuTextBox TxtSegundoApellido;
-        private System.Windows.Forms.Label LblIdentificacionEmpleado;
-        private System.Windows.Forms.TableLayoutPanel TbPnlIdentificacionEmpleado;
-        private System.Windows.Forms.Label LblCedula;
-        private System.Windows.Forms.Label LblFoto;
-        private System.Windows.Forms.PictureBox PbFotoEmpleado;
-        private Bunifu.UI.WinForms.BunifuTextBox TxtCedula;
         private System.Windows.Forms.Label LblOtrosDatos;
         private System.Windows.Forms.TableLayoutPanel TbPnlOtrosDatos;
         private Bunifu.UI.WinForms.BunifuTextBox TxtTelefono;
@@ -1203,7 +1037,7 @@
         private System.Windows.Forms.Label LblMunicipio;
         private System.Windows.Forms.ComboBox CmbDepartamentos;
         private System.Windows.Forms.ComboBox CmbMunicipios;
-        private System.Windows.Forms.Label LblFin;
+        private System.Windows.Forms.Label label1;
         private System.Windows.Forms.FlowLayoutPanel FlwPnlBotones;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton BtnGuardar;
         private Bunifu.UI.WinForms.BunifuButton.BunifuButton BtnLimpiar;

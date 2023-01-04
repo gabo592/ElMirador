@@ -306,6 +306,7 @@
             this.BtnClientes.TextMarginLeft = 0;
             this.BtnClientes.TextPadding = new System.Windows.Forms.Padding(0);
             this.BtnClientes.UseDefaultRadiusAndThickness = true;
+            this.BtnClientes.Click += new System.EventHandler(this.BtnClientes_Click);
             // 
             // BtnUsuarios
             // 

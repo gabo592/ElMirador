@@ -111,7 +111,7 @@
             this.TxtNombre.DefaultText = "";
             this.TxtNombre.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxtNombre.FillColor = System.Drawing.Color.White;
-            this.TxtNombre.ForeColor = System.Drawing.Color.Silver;
+            this.TxtNombre.ForeColor = System.Drawing.Color.Black;
             this.TxtNombre.HideSelection = true;
             this.TxtNombre.IconLeft = global::ElMirador.Properties.Resources.user;
             this.TxtNombre.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
@@ -142,7 +142,7 @@
             this.TxtNombre.OnHoverState = stateProperties3;
             stateProperties4.BorderColor = System.Drawing.Color.Silver;
             stateProperties4.FillColor = System.Drawing.Color.White;
-            stateProperties4.ForeColor = System.Drawing.Color.Silver;
+            stateProperties4.ForeColor = System.Drawing.Color.Black;
             stateProperties4.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.TxtNombre.OnIdleState = stateProperties4;
             this.TxtNombre.Padding = new System.Windows.Forms.Padding(3);
@@ -188,7 +188,7 @@
             this.TxtClave.DefaultText = "";
             this.TxtClave.Dock = System.Windows.Forms.DockStyle.Fill;
             this.TxtClave.FillColor = System.Drawing.Color.White;
-            this.TxtClave.ForeColor = System.Drawing.Color.Silver;
+            this.TxtClave.ForeColor = System.Drawing.Color.Black;
             this.TxtClave.HideSelection = true;
             this.TxtClave.IconLeft = global::ElMirador.Properties.Resources._lock;
             this.TxtClave.IconLeftCursor = System.Windows.Forms.Cursors.IBeam;
@@ -219,7 +219,7 @@
             this.TxtClave.OnHoverState = stateProperties7;
             stateProperties8.BorderColor = System.Drawing.Color.Silver;
             stateProperties8.FillColor = System.Drawing.Color.White;
-            stateProperties8.ForeColor = System.Drawing.Color.Silver;
+            stateProperties8.ForeColor = System.Drawing.Color.Black;
             stateProperties8.PlaceholderForeColor = System.Drawing.Color.Silver;
             this.TxtClave.OnIdleState = stateProperties8;
             this.TxtClave.Padding = new System.Windows.Forms.Padding(3);

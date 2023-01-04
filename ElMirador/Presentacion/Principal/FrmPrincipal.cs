@@ -1,4 +1,5 @@
 ﻿using ElMirador.Presentacion.CapitalHumano;
+using ElMirador.Presentacion.Ventas;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -66,6 +67,11 @@ namespace ElMirador.Presentacion.Principal
         private void BtnEmpleados_Click(object sender, EventArgs e)
         {
             AddForm(new FrmBuscadorEmpleado());
+        }
+
+        private void BtnClientes_Click(object sender, EventArgs e)
+        {
+            AddForm(new FrmBuscadorClientes());
         }
     }
 }
