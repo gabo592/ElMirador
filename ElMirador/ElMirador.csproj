@@ -177,6 +177,18 @@
     <Compile Include="Presentacion\CapitalHumano\FrmEditarEmpleado.Designer.cs">
       <DependentUpon>FrmEditarEmpleado.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Compras\FrmBuscadorProveedores.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmBuscadorProveedores.Designer.cs">
+      <DependentUpon>FrmBuscadorProveedores.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmEditorProveedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Compras\FrmEditorProveedor.Designer.cs">
+      <DependentUpon>FrmEditorProveedor.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Principal\FrmLogin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -207,11 +219,13 @@
     <Compile Include="Servicios\Base\ServicioBase.cs" />
     <Compile Include="Servicios\Base\Sesion.cs" />
     <Compile Include="Servicios\CapitalHumano\EmpleadoService.cs" />
+    <Compile Include="Servicios\Compras\ProveedorService.cs" />
     <Compile Include="Servicios\DaoFactory.cs" />
     <Compile Include="Servicios\Seguridad\UsuarioService.cs" />
     <Compile Include="Servicios\Ubicacion\UbicacionService.cs" />
     <Compile Include="Servicios\Ventas\ClienteService.cs" />
     <Compile Include="ViewModels\CapitalHumano\EmpleadoView.cs" />
+    <Compile Include="ViewModels\Compras\ProveedorView.cs" />
     <Compile Include="ViewModels\Seguridad\UsuarioView.cs" />
     <Compile Include="ViewModels\Ubicacion\MunicipioView.cs" />
     <Compile Include="ViewModels\Ventas\ClienteView.cs" />
@@ -220,6 +234,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\CapitalHumano\FrmEditarEmpleado.resx">
       <DependentUpon>FrmEditarEmpleado.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Compras\FrmBuscadorProveedores.resx">
+      <DependentUpon>FrmBuscadorProveedores.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Compras\FrmEditorProveedor.resx">
+      <DependentUpon>FrmEditorProveedor.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Principal\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>

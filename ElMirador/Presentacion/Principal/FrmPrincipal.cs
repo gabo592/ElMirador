@@ -1,13 +1,7 @@
 ﻿using ElMirador.Presentacion.CapitalHumano;
+using ElMirador.Presentacion.Compras;
 using ElMirador.Presentacion.Ventas;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace ElMirador.Presentacion.Principal
@@ -72,6 +66,11 @@ namespace ElMirador.Presentacion.Principal
         private void BtnClientes_Click(object sender, EventArgs e)
         {
             AddForm(new FrmBuscadorClientes());
+        }
+
+        private void BtnProveedores_Click(object sender, EventArgs e)
+        {
+            AddForm(new FrmBuscadorProveedores());
         }
     }
 }
