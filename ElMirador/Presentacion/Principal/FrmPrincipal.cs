@@ -78,5 +78,10 @@ namespace ElMirador.Presentacion.Principal
         {
             AddForm(new FrmBuscadorMateriasPrimas());
         }
+
+        private void BtnProductos_Click(object sender, EventArgs e)
+        {
+            AddForm(new FrmBuscadorProductos());
+        }
     }
 }

@@ -493,6 +493,7 @@
             this.BtnProductos.TextMarginLeft = 0;
             this.BtnProductos.TextPadding = new System.Windows.Forms.Padding(0);
             this.BtnProductos.UseDefaultRadiusAndThickness = true;
+            this.BtnProductos.Click += new System.EventHandler(this.BtnProductos_Click);
             // 
             // BtnMateriasPrimas
             // 

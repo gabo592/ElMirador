@@ -195,11 +195,23 @@
     <Compile Include="Presentacion\Inventario\FrmBuscadorMateriasPrimas.Designer.cs">
       <DependentUpon>FrmBuscadorMateriasPrimas.cs</DependentUpon>
     </Compile>
+    <Compile Include="Presentacion\Inventario\FrmBuscadorProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Inventario\FrmBuscadorProductos.Designer.cs">
+      <DependentUpon>FrmBuscadorProductos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Presentacion\Inventario\FrmEditorMateriaPrima.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Presentacion\Inventario\FrmEditorMateriaPrima.Designer.cs">
       <DependentUpon>FrmEditorMateriaPrima.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Presentacion\Inventario\FrmEditorProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Presentacion\Inventario\FrmEditorProducto.Designer.cs">
+      <DependentUpon>FrmEditorProducto.cs</DependentUpon>
     </Compile>
     <Compile Include="Presentacion\Principal\FrmLogin.cs">
       <SubType>Form</SubType>
@@ -234,12 +246,14 @@
     <Compile Include="Servicios\Compras\ProveedorService.cs" />
     <Compile Include="Servicios\DaoFactory.cs" />
     <Compile Include="Servicios\Inventario\MateriaPrimaService.cs" />
+    <Compile Include="Servicios\Inventario\ProductoService.cs" />
     <Compile Include="Servicios\Seguridad\UsuarioService.cs" />
     <Compile Include="Servicios\Ubicacion\UbicacionService.cs" />
     <Compile Include="Servicios\Ventas\ClienteService.cs" />
     <Compile Include="ViewModels\CapitalHumano\EmpleadoView.cs" />
     <Compile Include="ViewModels\Compras\ProveedorView.cs" />
     <Compile Include="ViewModels\Inventario\MateriaPrimaView.cs" />
+    <Compile Include="ViewModels\Inventario\ProductoView.cs" />
     <Compile Include="ViewModels\Seguridad\UsuarioView.cs" />
     <Compile Include="ViewModels\Ubicacion\MunicipioView.cs" />
     <Compile Include="ViewModels\Ventas\ClienteView.cs" />
@@ -258,8 +272,14 @@
     <EmbeddedResource Include="Presentacion\Inventario\FrmBuscadorMateriasPrimas.resx">
       <DependentUpon>FrmBuscadorMateriasPrimas.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Inventario\FrmBuscadorProductos.resx">
+      <DependentUpon>FrmBuscadorProductos.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Inventario\FrmEditorMateriaPrima.resx">
       <DependentUpon>FrmEditorMateriaPrima.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Presentacion\Inventario\FrmEditorProducto.resx">
+      <DependentUpon>FrmEditorProducto.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Presentacion\Principal\FrmLogin.resx">
       <DependentUpon>FrmLogin.cs</DependentUpon>
@@ -300,6 +320,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo El Mirador.ico" />
+    <None Include="Resources\burger.png" />
     <None Include="Resources\material.png" />
     <None Include="Resources\busqueda.png" />
     <None Include="Resources\align-justify.png" />
