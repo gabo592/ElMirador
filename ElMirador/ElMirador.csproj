@@ -245,6 +245,7 @@
     <Compile Include="Servicios\CapitalHumano\EmpleadoService.cs" />
     <Compile Include="Servicios\Compras\ProveedorService.cs" />
     <Compile Include="Servicios\DaoFactory.cs" />
+    <Compile Include="Servicios\Inventario\DetalleProductoService.cs" />
     <Compile Include="Servicios\Inventario\MateriaPrimaService.cs" />
     <Compile Include="Servicios\Inventario\ProductoService.cs" />
     <Compile Include="Servicios\Seguridad\UsuarioService.cs" />
@@ -320,6 +321,8 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Logo El Mirador.ico" />
+    <None Include="Resources\basura.png" />
+    <None Include="Resources\check.png" />
     <None Include="Resources\burger.png" />
     <None Include="Resources\material.png" />
     <None Include="Resources\busqueda.png" />

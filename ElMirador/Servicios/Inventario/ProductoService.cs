@@ -28,8 +28,9 @@ namespace ElMirador.Servicios.Inventario
         /// Crea un Producto en la base de datos dada una colección de pares clave-valor que corresponden a las propiedades del objeto.
         /// </summary>
         /// <param name="properties">Propiedades del Producto.</param>
+        /// <returns>Producto recién creado de la base de datos.</returns>
         /// <exception cref="ArgumentNullException">Se dispara cuando las propiedades no se proporcionan.</exception>
-        public void Create(IDictionary<string, object> properties)
+        public Producto Create(IDictionary<string, object> properties)
         {
             if (properties is null) throw new ArgumentNullException(nameof(properties), "Las propiedades del objeto no pueden ser nulas.");
 
@@ -41,7 +42,13 @@ namespace ElMirador.Servicios.Inventario
                 Foto = (Image)properties["Foto"]
             });
 
-            if (producto.Id.Equals(default)) Handler.Add("MODELO_DEFAULT");
+            if (producto.Id.Equals(default))
+            {
+                Handler.Add("MODELO_DEFAULT");
+                return null;
+            }
+
+            return producto;
         }
 
         /// <inheritdoc cref="IProductoDao.GetById(int)"/>
